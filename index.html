@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>American AI Poem Generator</title>
         <link rel="stylesheet" href="src/styles.css" />
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -23,7 +24,7 @@
             <h1>Welcome to the American AI Poem Generator</h1>
         </header>
         <main>
-            <form>
+            <form id="poem-generator-form">
                 <input
                     type="text"
                     placeholder="Enter the topic of the American poem"
@@ -35,9 +36,8 @@
                 <input type="submit" value="Submit" class="user-poem-submit" />
             </form>
             <div class="poem-container">
-                <div class="poem">
-                    <br />My sorrow I could not awaken <br />My heart to joy at
-                    the same tone <br />And all I loved, I loved alone
+                <div class="poem" id="poem">
+                  
                 </div>
             </div>
         </main>
