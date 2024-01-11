@@ -1,0 +1,66 @@
+body {
+    background-color: #fcf5ed;
+}
+.header {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #2b2a4c;
+    font-family: 'Instrument Serif', serif;
+}
+
+form {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.user-poem-entry {
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+.user-poem-submit {
+    background-color: #2b2a4c;
+    color: #fcf5ed;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.user-poem-submit:hover {
+    background-color: #bfcfe7;
+    transition: all 150ms ease-in-out;
+    color: #2b2a4c;
+}
+
+.poem-container {
+    text-align: left;
+    border-left: 5px solid #2b2a4c;
+    border-radius: 10px;
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #bfcfe7;
+}
+
+.poem {
+    line-height: 20px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    
+}
+a {
+    color: #2b2a4c;
+}
