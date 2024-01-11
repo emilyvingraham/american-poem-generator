@@ -5,9 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>American AI Poem Generator</title>
         <link rel="stylesheet" href="src/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <header>
+        <header class="header">
             <h1>Welcome to the American AI Poem Generator</h1>
         </header>
         <main>
@@ -18,12 +30,15 @@
                     autofocus
                     required
                     autocomplete="off"
+                    class="user-poem-entry"
                 />
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" class="user-poem-submit" />
             </form>
-            <div>
-                <br />My sorrow I could not awaken <br />My heart to joy at the
-                same tone <br />And all I loved, I loved alone
+            <div class="poem-container">
+                <div class="poem">
+                    <br />My sorrow I could not awaken <br />My heart to joy at
+                    the same tone <br />And all I loved, I loved alone
+                </div>
             </div>
         </main>
         <footer>
