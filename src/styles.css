@@ -10,11 +10,30 @@ body {
 }
 
 form {
-    text-align: center;
     padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    background-color: white;
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #bfcfe7;
+}
+
+.hint {
+    font-style: italic;
+    padding: 10px;
+    opacity: 0.9;
 }
 .user-poem-entry {
-    width: 40%;
+    width: 60%;
     padding: 10px;
     border-radius: 10px;
     font-size: 16px;
@@ -46,6 +65,24 @@ form {
     background-color: #bfcfe7;
 }
 
+.hidden {
+    display: none;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
 .poem {
     line-height: 20px;
     padding-bottom: 15px;
@@ -62,7 +99,6 @@ footer {
     padding-top: 10px;
     font-family: 'Instrument Serif', serif;
     font-size: 20px;
-    
 }
 a {
     color: #2b2a4c;

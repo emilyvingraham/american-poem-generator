@@ -25,22 +25,27 @@
             <h1>Welcome to the American AI Poem Generator</h1>
         </header>
         <main>
-            <form id="poem-generator-form">
-                <input
-                    type="text"
-                    placeholder="Enter the topic of the American poem"
-                    autofocus
-                    required
-                    autocomplete="off"
-                    class="user-poem-entry"
-                    id="user-poem-entry"
-                />
-                <input type="submit" value="Submit" class="user-poem-submit" />
-            </form>
-            <div class="poem-container">
-                <div class="poem" id="poem">
-                  
-                </div>
+            <div class="form-container">
+                <form id="poem-generator-form">
+                    <input
+                        type="text"
+                        placeholder="Enter the topic of an American poem"
+                        autofocus
+                        required
+                        autocomplete="off"
+                        class="user-poem-entry"
+                        id="user-poem-entry"
+                    />
+                    <input
+                        type="submit"
+                        value="Submit"
+                        class="user-poem-submit"
+                    />
+                </form>
+                <small class="hint">i.e. Flowers, Cheese or Rain</small>
+            </div>
+            <div class="poem-container hidden" id="poem-container">
+                <div class="poem" id="poem"></div>
             </div>
         </main>
         <footer>
